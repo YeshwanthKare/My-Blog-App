@@ -1,7 +1,9 @@
 
 
-const API_URL = "http://localhost:3000/api/posts";
-const API_BASE_URL = "http://localhost:3000/";
+const API_URL = "https://yesh-blog-api.herokuapp.com/api/posts";
+const API_BASE_URL = "https://yesh-blog-api.herokuapp.com/";
+
+//https://blog-app-api-yesh.herokuapp.com/
 
 window.onload = () => {
     getPosts();
